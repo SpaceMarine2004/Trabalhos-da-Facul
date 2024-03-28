@@ -1,0 +1,49 @@
+@font-face {
+    font-family: 'Beaufort Itálico';
+    src: url(BeaufortforLOL-BoldItalic.otf), format('opentype');
+    font-weight:normal;
+}
+#h1{
+    color:#f0e6d2;
+    text-align: center;
+    font-family: 'Beaufort Itálico';
+    font-size: 250%;
+    text-shadow: 2px 2px black;
+}
+body{
+    background-image: url(Background\ de\ Loading.webp);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    height: auto;
+    cursor: url('Manoplinha.png'), auto;
+}
+.conteúdo{
+    display: grid;
+    grid-template-columns:auto auto auto;
+    justify-content:space-around;
+    background-color: black;
+    border: 2px solid goldenrod;
+    border-radius: 20px;
+}
+.conteúdo > div{
+    background-color: black;
+    width: 220px;
+    margin: 10px;
+    line-height: 90px;
+    border: 2px solid goldenrod;
+    border-radius: 20px;
+}
+@font-face {
+    font-family: 'Spiegel Regular';
+    src: url(Spiegel-Regular.otf), format('opentype');
+    font-weight: normal;
+}
+p{
+    font-family: 'Spiegel Regular';
+    color: white;
+    font-size: normal;
+    text-align: center;
+}
