@@ -1,0 +1,91 @@
+/*Body é a alteração geral de nossa página*/
+body{
+    box-sizing: border-box;
+    height: auto;
+    margin: 0;
+    padding: 0;
+}
+/*Header é o cabeçalho de nossa página*/
+header{
+    background-color: #99d9ea;
+    padding: 15px;
+    text-align: center;
+    font-size: 15px;
+    color:black;
+
+}
+.colored-space{
+    display: inline-block;
+    width: auto;
+    height: auto;
+    background-color: black;
+    margin: 0px 472px;
+}
+.colored-space2{
+    display: inline-block;
+    width: auto;
+    height: auto;
+    background-color: black;
+    margin: 0px 15px;
+}
+/* A flex-container é para a barra de informações do site, como a página inicial e as outras opções*/
+.flex-container{
+    width: auto;
+    height: auto;
+    background-color: #0088ac;
+    display: flex;
+    justify-content: flex-start;
+}
+.flex-container > div{
+    width: auto;
+    height: auto;
+    text-align: center;
+    font-size: medium;
+    color: white;
+    margin: 0px;
+}
+.botões{
+    background-color: #0088ac;
+    border: none;
+    color: white;
+    padding: 15px;
+    text-align: center;
+    text-decoration: none;
+    display: flex;
+    margin: auto;
+    transition-duration: 0.4s;
+}    
+.botões1{
+    background-color: #0088ac;
+    color:white;
+    border: none;
+}
+.botões1:hover{
+    background-color:#99d9ea;
+    color: black;
+}    
+.botões2{
+    background-color: #0088ac;
+    color: black;
+    padding: 15px;
+    text-align: center;
+    text-decoration: none;
+    display: flex;
+    margin: auto;
+    transition-duration: 0.4s;    
+}
+.botões2-5{
+    background-color: #99d9ea;
+    color: black;
+}
+.botões2-5:hover{
+    background-color: #99d9ea;
+    color: black;
+}
+footer{
+    background-color: #2e3334;
+    padding: 15px;
+    text-align: center;
+    font-size: 15px;
+    color:white;
+}
